@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppis', sans-serif;
+}
+
 .contactHeader {
     display: flex;
     justify-content: flex-end;
@@ -109,10 +113,25 @@ header>nav>ul {
     gap: 6rem
 }
 
-header>nav>ul>a {
+header>nav>ul>li>a {
     color: #fff;
     text-decoration: none;
     font-family: 'Poppis', sans-serif;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item>a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppis', sans-serif;
+}
+
+.nav-item.active {
+    list-style-image: url(./../assets/circle.png);
+    color: #fff;
 }
 
 header>nav>ul>button {
