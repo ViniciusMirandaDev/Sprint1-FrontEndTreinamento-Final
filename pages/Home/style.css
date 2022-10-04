@@ -1,0 +1,37 @@
+header{
+    background-color: #E47500;
+    padding: 1rem 83px 1rem 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > h2{
+    color: #fff;
+    font-family: 'Poppis', sans-serif;
+
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header > nav > ul {
+    display: flex;
+    align-items: center;
+    gap:6rem
+}
+header > nav > ul > a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppis', sans-serif;
+}
+header > nav > ul> button{
+    border: none;
+    padding: 10px 27px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+header > nav > ul> button> a{
+    text-decoration: none;
+    color:#DC7000;
+    
+}
