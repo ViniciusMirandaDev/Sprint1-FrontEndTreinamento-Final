@@ -119,11 +119,11 @@ body > h2 {
 
 #verde {
   background: rgba(0, 220, 141, 0.11);
-  color: #00DC72;
+  color: #00dc72;
 }
 
 .caixa2 {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   margin: 150px 0;
   display: flex;
   gap: 95px;
@@ -145,21 +145,288 @@ body > h2 {
 }
 
 .textos > h2 {
-   font-size: 28px;
-   font-weight: 600;
-   line-height: 157%;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 157%;
 }
 
 .textos > h5 {
   color: #dc7000;
   font-weight: 500;
   font-size: 16px;
-  
 }
 
 .textos > p {
   font-weight: 400;
   font-size: 16px;
   line-height: 202%;
-  color: #000
+  color: #000;
 }
+
+.avatars {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  padding: 0 110px;
+  padding-top: 53px;
+  padding-bottom: 130px;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 295px;
+  height: 250px;
+
+  background: #f5f5f5;
+  border-radius: 20px;
+}
+
+.avatar > img {
+  width: 117px;
+  height: 117px;
+}
+
+.avatar > h5 {
+  font-size: 19px;
+  line-height: 202.5%;
+  color: #000000;
+}
+
+.avatar > h6 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 202.5%;
+  color: #8b8b8b;
+}
+
+#team {
+  color: #222222;
+  padding-left: 110px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 180.5%;
+}
+
+.colaboradores {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-right: 276px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  background: #f5f5f5;
+  color: #000000;
+}
+
+.colaboradores > h3 {
+  padding-left: 110px;
+}
+
+.colaborador {
+  display: flex;
+  gap: 73px;
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 105px;
+}
+
+#colab1 {
+  width: 105.43px;
+  height: 105.43px;
+}
+#colab2 {
+  width: 158.15px;
+  height: 105.43px;
+}
+
+#colab3 {
+  width: 156.23px;
+  height: 156.23px;
+}
+
+#colab4 {
+  width: 147.61px;
+  height: 50.8px;
+}
+
+#colab5 {
+  width: 176.36px;
+  height: 110.23px;
+}
+
+
+/*FOOTER CSS DAQUI PRA BAIXO */
+
+footer {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.lorem {
+  padding: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 50px;
+}
+
+footer > h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 187.5%;
+  color: #222222;
+}
+
+footer > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 187.5%;
+  padding-bottom: 40px;
+
+  color: #525252;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background: #1b1b1b;
+  width: 1170px;
+  height: 189px;
+  gap: 200px;
+  border-radius: 15px;
+  padding-left: 53px;
+}
+
+.loop {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+
+  gap: 10px;
+  padding-bottom: 42px;
+}
+
+.loop > h4 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #ffffff;
+}
+
+.loop > p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.butCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 385.68px;
+}
+
+.butCont > input {
+  border: none;
+  color: #898989;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.butCont > button {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  width: 105px;
+  height: 37px;
+  color: #ffffff;
+  background: #dc7000;
+  border-radius: 8px;
+  border: none;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 79px;
+
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.aboutU > p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 190%;
+}
+
+.logo > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 155.2%;
+}
+
+.aboutU > h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contactUs > p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contactUs > h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.aboutU {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.redes {
+  display: flex;
+  align-items: flex-end;
+}
+
+span {
+  color: #fff;
+  background: #1B1B1B;
+  padding: 29px 615.2px;
+  border-top: 1px solid #fff;
+  font-weight: 400;
+  font-size: 13px;
+}
+
