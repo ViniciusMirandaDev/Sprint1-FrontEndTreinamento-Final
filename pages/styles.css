@@ -145,3 +145,50 @@ header>nav>ul>button>a {
     text-decoration: none;
     color: #DC7000;
 }
+.imagem1{
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    width: 826px;
+    height: 94px;
+    left: 307px;
+    top: 983px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 187.5%;
+    text-align: center;
+}
+
+h2{
+position: absolute;
+width: 209px;
+height: 40px;
+left: 135px;
+top: 1126px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 187.5%;
+color: #222222;
+}
+p{
+position: absolute;
+width: 545px;
+height: 101px;
+left: 135px;
+top: 1198px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 187.5%;
+color: #525252;
+}
