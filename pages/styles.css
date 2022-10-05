@@ -150,7 +150,6 @@ header>nav>ul>button>a {
 }
 
 h1{
-    position: absolute;
     width: 826px;
     height: 94px;
     left: 307px;
@@ -165,11 +164,8 @@ h1{
 }
 
 h2{
-position: absolute;
 width: 209px;
 height: 40px;
-left: 135px;
-top: 1126px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -178,8 +174,7 @@ font-size: 30px;
 line-height: 187.5%;
 color: #222222;
 }
-p{
-position: absolute;
+.text1{
 width: 545px;
 height: 101px;
 left: 135px;
@@ -191,4 +186,26 @@ font-weight: 400;
 font-size: 16px;
 line-height: 187.5%;
 color: #525252;
+}
+.container-industry{
+    display: flex;
+    padding: 15rem;
+    flex-wrap: wrap;
+    gap:100px;
+    justify-content: center;
+
+}
+.container-industry > .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:27px;
+}
+.container-industry > .content  .imgMarca{
+    width: 65px;
+    height: 65px;
+}
+.container-industry > .content > .setaParaDireita{
+    width: 21px;
+    height: 18px;
 }
