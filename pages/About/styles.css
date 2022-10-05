@@ -5,6 +5,144 @@ body {
   font-family: 'Poppins';
 }
 
+.contactHeader {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6.25rem;
+  padding: 0.5625rem 6.125rem 0.5625rem 0;
+}
+
+.contactHeader > .maps {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.contactHeader > .maps > p {
+  font-family: 'Poppins' sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.contactHeader > .tell {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.contactHeader > .tell > p {
+  font-family: 'Poppins' sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+header {
+  background-color: #e47500;
+  padding: 1rem 88px 1rem 63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > h2 {
+  color: #fff;
+  font-family: 'Poppis', sans-serif;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize !important;
+}
+
+header > nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+header > nav > ul > a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppis', sans-serif;
+}
+
+header > nav > ul > button {
+  border: none;
+  padding: 10px 27px;
+  background-color: #fff;
+  border-radius: 6px;
+  text-transform: capitalize !important;
+  width: 131px;
+  height: 41.34px;
+}
+
+header > nav > ul > a > img {
+  margin-right: 0.464375rem !;
+}
+
+header > nav > ul > button > a {
+  text-decoration: none;
+  color: #dc7000;
+}
+
+header {
+  background-color: #e47500;
+  padding: 1rem 83px 1rem 63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > h2 {
+  color: #fff;
+  font-family: 'Poppis', sans-serif;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header > nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+header > nav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppis', sans-serif;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-item > a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppis', sans-serif;
+}
+
+.nav-item.active {
+  list-style-image: url(./../assets/circle.png);
+  color: #fff;
+}
+
+header > nav > ul > button {
+  border: none;
+  padding: 10px 27px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+header > nav > ul > button > a {
+  text-decoration: none;
+  color: #dc7000;
+}
+
 main {
   display: flex;
   justify-content: space-between;
@@ -259,7 +397,6 @@ body > h2 {
   height: 110.23px;
 }
 
-
 /*FOOTER CSS DAQUI PRA BAIXO */
 
 footer {
@@ -423,10 +560,10 @@ footer > p {
 
 span {
   color: #fff;
-  background: #1B1B1B;
+  background: #1b1b1b;
   padding: 29px 615.2px;
   border-top: 1px solid #fff;
   font-weight: 400;
   font-size: 13px;
+  
 }
-
