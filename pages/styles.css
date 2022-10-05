@@ -149,13 +149,9 @@ header>nav>ul>button>a {
     width: 100%;
 }
 
-h1{
-    position: absolute;
+h1{ 
     width: 826px;
     height: 94px;
-    left: 307px;
-    top: 983px;
-    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -165,12 +161,8 @@ h1{
 }
 
 h2{
-position: absolute;
 width: 209px;
 height: 40px;
-left: 135px;
-top: 1126px;
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -179,7 +171,6 @@ line-height: 187.5%;
 color: #222222;
 }
 p{
-position: absolute;
 width: 545px;
 height: 101px;
 left: 135px;
@@ -191,4 +182,12 @@ font-weight: 400;
 font-size: 16px;
 line-height: 187.5%;
 color: #525252;
+}
+img > foto1{
+width: 934px;
+height: 462px;
+left: 135px;
+top: 1345px;
+background: url(.jpg), #C4C4C4;
+border-radius: 5px;
 }
