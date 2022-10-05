@@ -149,12 +149,13 @@ header>nav>ul>button>a {
     width: 100%;
 }
 
+<<<<<<< HEAD
 h1{
+=======
+h1{ 
+>>>>>>> 88f1999028d4f6dfce270c764bb933fe317e105b
     width: 826px;
     height: 94px;
-    left: 307px;
-    top: 983px;
-    
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -166,7 +167,10 @@ h1{
 h2{
 width: 209px;
 height: 40px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 88f1999028d4f6dfce270c764bb933fe317e105b
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -174,7 +178,11 @@ font-size: 30px;
 line-height: 187.5%;
 color: #222222;
 }
+<<<<<<< HEAD
 .text1{
+=======
+p{
+>>>>>>> 88f1999028d4f6dfce270c764bb933fe317e105b
 width: 545px;
 height: 101px;
 left: 135px;
