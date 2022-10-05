@@ -150,19 +150,17 @@ header>nav>ul>button>a {
 }
 
 h1{
-    width: 826px;
-    height: 94px;
+    align-items: center;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 600px;
     font-size: 25px;
     line-height: 187.5%;
     text-align: center;
 }
 
 h2{
-width: 209px;
-height: 40px;
+align-items: center;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -171,10 +169,10 @@ line-height: 187.5%;
 color: #222222;
 }
 .text1{
-width: 545px;
-height: 101px;
-left: 135px;
-top: 1198px;
+    width: 545px;
+    height: 101px;
+    left: 135px;
+    top: 1198px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -204,4 +202,22 @@ color: #525252;
 .container-industry > .content > .setaParaDireita{
     width: 21px;
     height: 18px;
+}
+.texto2{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 187.5%;
+text-align: center;
+color: #222222;
+}
+.textoo2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 187.5%;
+text-align: center;
+color: #525252;
 }
