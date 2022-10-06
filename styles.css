@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -691,4 +691,35 @@ footer {
     font-weight: 400;
     font-size: 13px;
   }
-  
+  .loremp1{
+    margin-left: 135px;
+
+}
+.loremp1 > h2{
+ margin-bottom: 32px;
+}
+.textTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 83px;
+    margin-bottom: 49px;
+}
+.textTitle > h1{
+    text-align: center; 
+    max-width: 826px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46.88px;
+    font-family: "Poppins";
+  }
+  .contentimg{
+    position: relative;
+    margin-top: 46px;
+
+  }
+  .contentimg >.imgOrange{
+    position: absolute;
+right: 310px;
+top: -66px;
+z-index: -1;
+  }
