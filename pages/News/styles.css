@@ -1,0 +1,54 @@
+
+.contentRigth{
+    max-width: 38.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.content{
+    display: flex;
+    gap:1.938rem
+}
+.headerSectionRight{
+    display: flex;
+    gap: 1rem;
+    padding-top:1.625rem ;
+    align-items: center;
+    
+    
+}
+.headerSectionRight > .btn-1{
+    background: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.438rem 1.625rem;
+    border: none;
+
+}
+.headerSectionRight > .btn-2{
+    background: rgb(226, 32, 32);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.438rem 1.625rem;
+    border: none;
+
+
+}
+.headerSectionRight > span {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #424242;
+    
+}
+.contentRigth >.content > .section > p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.438rem;
+    font-weight: 600;
+    max-width: 392px;
+    padding-top: 1.438rem;
+}
