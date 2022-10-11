@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -203,9 +203,21 @@ color: #525252;
     width: 21px;
     height: 18px;
 }
+.text{
+    max-width: 826px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.description-industre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10.313rem;
+}
 .texto2{
  font-family: 'Poppins';
-font-style: normal;
 font-weight: 600;
 font-size: 25px;
 line-height: 187.5%;
@@ -220,6 +232,13 @@ font-size: 16px;
 line-height: 187.5%;
 text-align: center;
 color: #525252;
+margin-top: 24px;
+}
+.content > p{
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 1rem;
+color: #000;
 }
 .containerCards{
     background-color: #f5f5f5;
@@ -671,4 +690,35 @@ footer {
     font-weight: 400;
     font-size: 13px;
   }
-  
+  .loremp1{
+    margin-left: 135px;
+
+}
+.loremp1 > h2{
+ margin-bottom: 32px;
+}
+.textTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 83px;
+    margin-bottom: 49px;
+}
+.textTitle > h1{
+    text-align: center; 
+    max-width: 826px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46.88px;
+    font-family: "Poppins";
+  }
+  .contentimg{
+    position: relative;
+    margin-top: 46px;
+
+  }
+  .contentimg >.imgOrange{
+    position: absolute;
+right: 310px;
+top: -66px;
+z-index: -1;
+  }
