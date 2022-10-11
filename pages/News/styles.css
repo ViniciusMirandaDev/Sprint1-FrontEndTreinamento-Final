@@ -35,7 +35,40 @@ color: orange;
 
 }
 .headerSectionRight > .btn-2{
-    background: rgb(226, 32, 32);
+    background:#2351F5;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.438rem 1.625rem;
+    border: none;
+    
+
+}
+.headerSectionRight > .btn-3{
+    background:#FF7C32;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.438rem 1.625rem;
+    border: none;
+
+
+}
+.headerSectionRight > .btn-5{
+    background:#23A54F;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.438rem 1.625rem;
+    border: none;
+
+
+}
+.headerSectionRight > .btn-7{
+    background:#9921C3;
     color: #fff;
     font-family: "Poppins", sans-serif;
     font-size: 0.875rem;
