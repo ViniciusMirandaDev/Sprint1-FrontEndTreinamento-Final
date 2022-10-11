@@ -1,16 +1,139 @@
-.container >div> .pageNews:active{
-color: orange;
+
+.container{
+    padding: 5.875rem 15.563rem 6.438rem 15.563rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container > div {
+    color:#848484;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.container >div> a{
+    color:#848484
+    
+}
+.container >div> a:active{
+    color:#E47500
+   
+    
+}
+.container > div > a:hover{
+    color:#E47500
 }
 .container > div> a:link {
     text-decoration: none;
 
 }
+.container > p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #898989;
+    padding-top: 0.75rem;
+    padding-bottom: 4.625rem;
+}
+.container  > .search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    gap: 5rem
 
+}
+.container > .search > img{
+    position: absolute;
+    left: 25px;
+}
+.container > .search > input {
+    padding: 18px 59px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    background: #f1f1f1;
+}
+.container > .search > input::placeholder {
+    font-family: "Poppins",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+main{
+    display: flex;
+    padding: 103px 53px 0px 110px;
+    justify-content: space-between;
+    gap:72px
+}
+.contentLeft >.content1> h2 {
+    max-width: 575px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+.contentLeft >.content1> p {
+    font-family: "Poppins", sans-serif;
+    font-size:  1.063rem;
+    font-weight: 400;
+   color: #515151;
+   max-width: 529px;
+   margin-top: 44px;
+   line-height: 32.5px;
+ 
+}
+.contentLeft >.content1> .text2{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.063rem;
+    font-weight: 400;
+   color: #515151;
+   max-width: 502px;
+   margin-top: 44px;
+   line-height: 32.5px;
+
+
+}
+.contentLeft >.content1{
+    border-bottom: 1px solid #a5a5a5;
+    padding-bottom:90px ;
+}
+.contentLeft >.content2> h2 {
+    max-width: 575px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+.contentLeft >.content2> p {
+    font-family: "Poppins", sans-serif;
+    font-size:  1.063rem;
+    font-weight: 400;
+   color: #515151;
+   max-width: 529px;
+   margin-top: 44px;
+   line-height: 32.5px;
+
+}
+
+.contentLeft >.content2{
+    padding-top:90px ;
+}
 .contentRigth{
     max-width: 38.625rem;
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+.headerSectionRight > .btn-description{
+    background:#2351F5;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 9px 32px;
+    border: none;
+    
+
 }
 .content{
     display: flex;
