@@ -56,6 +56,9 @@
     border: none;
     background: #f1f1f1;
 }
+.container > .search > input:focus{
+    outline:1px solid  #FF7C32;
+}
 .container > .search > input::placeholder {
     font-family: "Poppins",sans-serif;
     font-size: 1rem;
