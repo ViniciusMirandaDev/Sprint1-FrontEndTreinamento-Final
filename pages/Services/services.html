@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ACDM</title>
+    <title>Services</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
@@ -41,12 +41,21 @@
       <h2 class="logo">ACDM</h2>
       <nav>
         <ul>
-          <li class="nav-item active"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">about us</a></li>
-          <li class="nav-item"><a href="#">services</a></li>
-          <li class="nav-item"><a href="#">news</a></li>
-          <button>
-            <a href="#">contact us</a>
+          <li class="nav-item active">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/pages/About/about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <img src="/assets/icons/bolinha._links.svg" alt="" />
+            <a href="/pages/Services/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="/pages/News/news.html">News</a>
+          </li>
+          <button id="buttonHeader">
+            <a href="/pages/Contact/index.html">Contact Us</a>
           </button>
         </ul>
       </nav>
@@ -88,7 +97,11 @@
       </div>
 
       <section id="primeira">
-        <img src="../../assets/images/planta_services.svg" alt="" />
+        <img
+          src="../../assets/images/planta_services.svg"
+          alt=""
+          data-aos="fade-right"
+        />
         <div class="lorem1">
           <h2>
             Lorem Ipsum is simply <br />
@@ -99,33 +112,36 @@
             industry.Lorem Ipsum is simply dummy .
           </p>
           <div class="radio">
-            <input type="checkbox" />
+            <img src="/assets/icons/bolinha_check.svg" alt="" />
 
             <label> Lorem Ipsum is simply </label>
           </div>
 
           <div class="radio">
-            <input type="checkbox" />
+            <img src="/assets/icons/bolinha_check.svg" alt="" />
 
             <label> Lorem Ipsum is simply </label>
           </div>
-
           <div class="radio">
-            <input type="checkbox" />
+            <img src="/assets/icons/bolinha_check.svg" alt="" />
 
             <label> Lorem Ipsum is simply </label>
           </div>
-
           <div class="radio">
-            <input type="checkbox" />
+            <img src="/assets/icons/bolinha_check.svg" alt="" />
 
-            <p>Lorem Ipsum is simply</p>
+            <label> Lorem Ipsum is simply </label>
           </div>
         </div>
       </section>
       <div class="fotos">
         <section id="game">
-          <img id="gamer" src="../../assets/images/game_services.svg" alt="" />
+          <img
+            id="gamer"
+            src="../../assets/images/game_services.svg"
+            alt=""
+            data-aos="fade-left"
+          />
           <div class="game1">
             <h3>
               Lorem Ipsum is simply dummy <br />
@@ -152,6 +168,7 @@
             id="gamer2"
             src="../../assets/images/oculos_sevices.svg"
             alt=""
+            data-aos="fade-right"
           />
           <div class="game1">
             <h3>
@@ -180,6 +197,7 @@
             id="gamer"
             src="../../assets/images/iphone_services.svg"
             alt=""
+            data-aos="fade-left"
           />
           <div class="game1">
             <h3>
@@ -214,7 +232,12 @@
           industry.Lorem Ipsum is simply dummy .
         </p>
         <div class="dep">
-          <div class="cards">
+          <div
+            class="cards"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div class="card">
               <img
                 src="../../assets/images/homem_services.svg
@@ -236,7 +259,12 @@
             </p>
           </div>
 
-          <div class="cards">
+          <div
+            class="cards"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div class="card">
               <img src="../../assets/images/mulher2_services.svg" alt="" />
               <div class="yessica">
@@ -252,7 +280,12 @@
             </p>
           </div>
 
-          <div class="cards">
+          <div
+            class="cards"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div class="card">
               <img
                 src="../../assets/images/homem2_services.svg
@@ -344,6 +377,10 @@
       </div>
     </footer>
     <span>Copyright ® 2021 Company All rights Rcerved</span>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>
 >

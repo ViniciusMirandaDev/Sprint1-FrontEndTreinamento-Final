@@ -7,6 +7,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,16 +23,16 @@
       rel="stylesheet"
     />
 
-    <title>ACDM</title>
+    <title>About</title>
   </head>
   <body>
     <div class="contactHeader">
       <div class="maps">
-        <img src="../../assets/map.svg" alt="icon map" />
+        <img src="../../assets/imagensHome/map.svg" alt="icon map" />
         <p>Company Address type here</p>
       </div>
       <div class="tell">
-        <img src="../../assets/tel.png" alt="phone" />
+        <img src="../../assets/imagensHome/tel.png" alt="phone" />
         <p>+94 000 00000</p>
       </div>
     </div>
@@ -39,12 +40,21 @@
       <h2 class="logo">ACDM</h2>
       <nav>
         <ul>
-          <li class="nav-item active"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">about us</a></li>
-          <li class="nav-item"><a href="#">services</a></li>
-          <li class="nav-item"><a href="#">news</a></li>
-          <button>
-            <a href="#">contact us</a>
+          <li class="nav-item active">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <img src="/assets/icons/bolinha._links.svg" alt="" />
+            <a href="/pages/About/about.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="/pages/Services/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="/pages/News/news.html">News</a>
+          </li>
+          <button id="buttonHeader">
+            <a href="/pages/Contact/index.html">Contact Us</a>
           </button>
         </ul>
       </nav>
@@ -70,7 +80,7 @@
     </main>
     <h2>Why work with us</h2>
     <div class="caixa">
-      <div class="cards">
+      <div class="cards" data-aos="fade-right">
         <h5>Lorem Ipsum</h5>
         <h4>Lorem Ipsum</h4>
         <p>
@@ -81,7 +91,7 @@
         </p>
       </div>
 
-      <div class="cards">
+      <div class="cards" data-aos="flip-left">
         <h5 id="vermelho">Lorem Ipsum</h5>
         <h4>Lorem Ipsum</h4>
         <p>
@@ -91,7 +101,8 @@
           dummy text ever since the 1500s.
         </p>
       </div>
-      <div class="cards">
+      <div class="cards" data-aos="fade-left">
+        >
         <h5 id="verde">Lorem Ipsum</h5>
         <h4>Lorem Ipsum</h4>
         <p>
@@ -218,12 +229,23 @@
 
         <div class="redes">
           <img src="/assets/icons/face.svg" alt="" />
+          <a href="http://www.facebook.com" target="_blank"></a>
+
           <img src="/assets/icons/insta.svg" alt="" />
+          <a href="http://www.instagram.com" target="_blank"></a>
+
           <img src="/assets/icons/twitter.svg" alt="" />
+          <a href="http://www.twitter.com" target="_blank"></a>
+
           <img src="/assets/icons/linkedin.svg" alt="" />
+          <a href="http://www.linkedin.com" target="_blank"></a>
         </div>
       </div>
     </footer>
     <span>Copyright ® 2021 Company All rights Rcerved</span>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>

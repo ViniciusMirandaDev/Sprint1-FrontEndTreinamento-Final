@@ -254,7 +254,7 @@ main > p {
   padding-right: 191px;
   padding-left: 109px;
   gap: 87.6px;
-  background: #eeeff2;
+  background-image: linear-gradient(180deg, #eeeff2, #fff);
   padding-top: 132px;
   padding-bottom: 50px;
 }
@@ -439,6 +439,12 @@ main > p {
   color: #ffffff;
 
   margin-top: 29px;
+}
+
+.game1 > button:hover {
+  transition: 100ms;
+  background-color: #d99853;
+  cursor: pointer;
 }
 
 .viezh {
@@ -748,4 +754,14 @@ span {
   border-top: 1px solid #fff;
   font-weight: 400;
   font-size: 13px;
+}
+
+#buttonHeader:hover {
+  transition: 100ms;
+  background-color: rgb(255, 234, 211);
+  cursor: pointer;
+}
+
+.redes > img {
+  cursor: pointer;
 }

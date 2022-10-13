@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>home</title>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -27,12 +28,12 @@
     <h2 class="logo">ACDM</h2>
     <nav>
       <ul>
-        <li class="nav-item active"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#">about us</a></li>
-        <li class="nav-item"><a href="#">services</a></li>
-        <li class="nav-item"><a href="#">news</a></li>
-        <button>
-          <a href="#">contact us</a>
+        <li class="nav-item active"> <img src="/assets/icons/bolinha._links.svg" alt=""> <a href="" >Home</a></li>
+        <li class="nav-item"><a href="/pages/About/about.html">About us</a></li>
+        <li class="nav-item"><a href="/pages/Services/services.html" >Services</a></li>
+        <li class="nav-item"><a href="/pages/News/news.html" >News</a></li>
+        <button id="buttonHeader">
+          <a href="/pages/Contact/index.html">Contact Us</a>
         </button>
       </ul>
     </nav>
@@ -49,7 +50,7 @@
         <p class="text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
           industry's standard dummy text ever since the 1500s,</p>
           <div class="contentimg">
-            <img class="imgPessoas" src="../assets/imagensHome/Rectangle 4.png" alt="imagens de uma pessoa">
+            <img class="imgPessoas" src="../assets/imagensHome/Rectangle 4.png" alt="imagens de uma pessoa" data-aos="zoom-out">
             <img class="imgOrange" src="./assets/imagensHome/orange.svg" alt="">
           </div>
 
@@ -64,37 +65,49 @@
 
 
   <div class="container-industry">
-    <div class="content">
+    <div class="content" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <img class="imgMarca" src="../assets/imagensHome/phone.svg" alt="" />
       <p>Mobile Game Development</p>
       <img class="setaParaDireita" src="../assets/imagensHome/setaParaDireita.svg" alt="" />
     </div>
 
-    <div class="content">
+    <div class="content" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <img class="imgMarca" src="../assets/imagensHome/iconecomputer.svg" alt="" />
       <p>PC Game Development</p>
       <img class="setaParaDireita" src="../assets/imagensHome/setaParaDireita.svg" alt="" />
     </div>
 
-    <div class="content">
+    <div class="content" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <img class="imgMarca" src="../assets/imagensHome/ps4.svg" alt="" />
       <p>PS4 Game Development</p>
       <img class="setaParaDireita" src="../assets/imagensHome/setaParaDireita.svg" alt="" />
     </div>
 
-    <div class="content">
+    <div class="content" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <img class="imgMarca" src="../assets/imagensHome/vr.svg" alt="" />
       <p>AR/VR Solutions</p>
       <img class="setaParaDireita" src="../assets/imagensHome/setaParaDireita.svg" alt="" />
     </div>
 
-    <div class="content">
+    <div class="content" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <img class="imgMarca" src="../assets/imagensHome/arvr.svg" alt="" />
       <p>AR/ VR design</p>
       <img class="setaParaDireita" src="../assets/imagensHome/setaParaDireita.svg" alt="" />
     </div>
 
-    <div class="content">
+    <div class="content" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <img class="imgMarca" src="../assets/imagensHome/3d.svg" alt="" />
       <p>3D Modelings</p>
       <img class="setaParaDireita" src="../assets/imagensHome/setaParaDireita.svg" alt="" />
@@ -108,7 +121,9 @@
 
     </div>
     <div class="contentCards">
-      <div class="card">
+      <div class="card" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <button class="btn">Lorem Ipsum</button>
         <h3>Lorem Ipsum</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -121,7 +136,9 @@
         </footer>
       </div>
 
-      <div class="card2">
+      <div class="card2" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <button class="btn">Lorem Ipsum</button>
         <h3>Lorem Ipsum</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -134,7 +151,9 @@
         </footer>
       </div>
 
-      <div class="card3">
+      <div class="card3" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <button class="btn">Lorem Ipsum</button>
         <h3>Lorem Ipsum</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -147,7 +166,9 @@
         </footer>
       </div>
 
-      <div class="card4">
+      <div class="card4" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <button class="btn">Lorem Ipsum</button>
         <h3>Lorem Ipsum</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -167,13 +188,19 @@
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
     </div>
     <div class="contentProjects">
-      <img class="Imagem1" src="../assets/imagensHome/Rectangle 15.png" alt="imagem de um livro">
-      <img class="Imagem2" src="../assets/imagensHome/Rectangle 16.png" alt="imagem de um escritório">
-      <img class="Imagem3" src="../assets/imagensHome/Rectangle 17.png" alt="imagem de uma mulher negra">
-      <img class="Imagem4" src="../assets/imagensHome/Rectangle 18.png" alt="imagem de pessoas fazendo reunião">
+      <img class="Imagem1" src="../assets/imagensHome/Rectangle 15.png" alt="imagem de um livro" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
+      <img class="Imagem2" src="../assets/imagensHome/Rectangle 16.png" alt="imagem de um escritório" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
+      <img class="Imagem3" src="../assets/imagensHome/Rectangle 17.png" alt="imagem de uma mulher negra" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
+      <img class="Imagem4" src="../assets/imagensHome/Rectangle 18.png" alt="imagem de pessoas fazendo reunião" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
       <img class="Imagem5" src="../assets/imagensHome/Rectangle 19.png"
-        alt="imagem de uma mulhe mechendo no computador">
-      <img class="Imagem6" src="../assets/imagensHome/Rectangle 20.png" alt="imagem de duas mulheres conversando">
+        alt="imagem de uma mulhe mechendo no computador" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+      <img class="Imagem6" src="../assets/imagensHome/Rectangle 20.png" alt="imagem de duas mulheres conversando" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
     </div>
   </section>
 
@@ -257,7 +284,10 @@
       ® 2021 Company All rights Rcerved
     </p>
   </div>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init()
+  </script>
 </body>
 
 </html>

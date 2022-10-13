@@ -565,5 +565,26 @@ span {
   border-top: 1px solid #fff;
   font-weight: 400;
   font-size: 13px;
-  
+}
+
+#buttonHeader:hover {
+  transition: 100ms;
+  background-color: rgb(255, 234, 211);
+  cursor: pointer;
+}
+
+.ButtonGet:hover {
+  transition: 100ms;
+  background-color: #d99853;
+  cursor: pointer;
+}
+
+.ButtonGet > button:hover {
+  transition: 100ms;
+  background-color: #d99853;
+  cursor: pointer;
+}
+
+.redes > img {
+  cursor: pointer;
 }
