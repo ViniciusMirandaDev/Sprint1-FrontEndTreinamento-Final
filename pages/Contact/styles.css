@@ -310,6 +310,7 @@ header > nav > ul > button > a {
   line-height: 175.4%;
   letter-spacing: -0.3px;
   color: #4f4f4f;
+  padding-top: 20px;
 }
 
 .input3 > h4 {
@@ -319,6 +320,8 @@ header > nav > ul > button > a {
   line-height: 175.4%;
   letter-spacing: -0.3px;
   color: #4f4f4f;
+  padding-top: 20px;
+
 }
 
 .btn {
@@ -503,11 +506,14 @@ footer > p {
   align-items: flex-end;
 }
 
-span {
-  color: #fff;
+.copyrigth{
   background: #1b1b1b;
-  padding: 29px 615.2px;
   border-top: 1px solid #fff;
+  width: 100%;
+}
+.copyrigth > p {
+  color: #fff;
+  padding: 29px 615.2px;
   font-weight: 400;
   font-size: 13px;
 }

@@ -558,15 +558,17 @@ footer > p {
   align-items: flex-end;
 }
 
-span {
-  color: #fff;
+.copyrigth{
   background: #1b1b1b;
-  padding: 29px 615.2px;
   border-top: 1px solid #fff;
+  width: 100%;
+}
+.copyrigth > p {
+  color: #fff;
+  padding: 29px 615.2px;
   font-weight: 400;
   font-size: 13px;
 }
-
 #buttonHeader:hover {
   transition: 100ms;
   background-color: rgb(255, 234, 211);
